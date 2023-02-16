@@ -61,7 +61,7 @@
 
     .heart:active {
         box-shadow: 0px 1px 1px #af978f;
-        scale: 0.92;
+        scale: 0.94;
     }
 
     .heart:active::before{
@@ -70,6 +70,10 @@
 
     .heart:active i {
         color: white;
+    }
+
+    .heart:focus{
+        outline: none;
     }
 
 </style>
